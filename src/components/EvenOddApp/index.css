@@ -1,0 +1,36 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+p {
+  color: #334155;
+}
+
+.button {
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+}
